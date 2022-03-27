@@ -1,0 +1,30 @@
+{{#if resume.work}}
+    <section class="section experiences-section">
+        <h2 class="section-title"><i class="fa fa-briefcase"></i>Work Experience</h2>
+
+        {{#resume.work}}
+            <div class="item">
+                <div class="meta">
+                    <div class="upper-row">
+                        <h3 class="job-title">{{position}} - {{#if url}}<a href="{{url}}" target="_blank">{{/if}}{{name}}{{#if url}}</a>{{/if}}</h3>
+                        <div class="time">{{monthYearDate startDate}} - {{monthYearDate endDate}}</div>
+                    </div><!--//upper-row-->
+                    {{#if location}}<div class="company"><i class="fa fa-map-pin"></i> {{location}}</div>{{/if}}
+                </div><!--//meta-->
+                {{!-- <div class="item-highlights">
+                    {{#highlights}}
+                        <span class="work-highlight badge">{{this}}</span>
+                    {{/highlights}}
+                </div> --}}
+                <div class="details">
+                    {{#markdown}}{{summary}}{{/markdown}}
+                </div><!--//details-->
+                <ul class="highlights">
+                    {{#highlights}}
+                        <li>{{this}}</li>
+                    {{/highlights}}
+                </ul>
+            </div><!--//item-->
+        {{/resume.work}}
+    </section><!--//section-->
+{{/if}}

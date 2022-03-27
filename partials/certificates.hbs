@@ -1,0 +1,12 @@
+{{#if resume.certificates}}
+    <div class="education-container container-block">
+        <h2 class="container-block-title">Certifications</h2>
+        {{#resume.certificates}}
+            <div class="item">
+                <h4 class="degree"><a href="{{url}}">{{name}}</a></h4>
+                <h5 class="meta">{{issuer}}</h5>
+                <div class="time">{{monthYearDate date}}</div>
+            </div><!--//item-->
+        {{/resume.certificates}}
+    </div><!--//certificates-container-->
+{{/if}}
