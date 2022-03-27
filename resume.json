@@ -1,0 +1,392 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Christian Panadero",
+    "label": "Full-stack engineer",
+    "image": "https://www.gravatar.com/avatar/27e0c9f01ff056119361b79591034505?size=140",
+    "email": "panavtec@gmail.com",
+    "summary": "10 years+ experienced tech enthusiast who worked in frontend, mobile and backend projects. Strives for simplicity and always tries to look for the most elegant and reliable solution.",
+    "location": {
+      "countryCode": "ES",
+      "city": "Valencia"
+    },
+    "profiles": [
+      {
+        "network": "linkedin",
+        "username": "panavtec",
+        "url": "https://linkedin.com/in/panavtec"
+      },
+      {
+        "network": "twitter",
+        "username": "panavtec",
+        "url": "https://twitter.com/panavtec"
+      },
+      {
+        "network": "github",
+        "username": "panavtec",
+        "url": "https://github.com/panavtec"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Habito",
+      "position": "Software engineer",
+      "startDate": "2020-10-31",
+      "url": "https://habito.com",
+      "location": "Valencia, Spain (Remote)",
+      "summary": "Worked in a crossfunctional crew that took care of 2 Haskell monoliths and a few microservices adding up to one million lines of code using a custom CQRS + ES solution",
+      "highlights": [
+        "Develop & maintain complex credit policy rules that accept/reject mortgages based on customer's data",
+        "Designed a restful API to integrate Habito's affordability calculations with a 3rd party vendor",
+        "Identified a gap in internal tooling and built a few web forms to make the operations team autonomous",
+        "Designed and coordinated processes to update mortgage products (application state) in production without downtime",
+        "Created a lot of documentation around the different subdomains on the lending platform",
+        "Provide training/support to peers to get onboarded on the team quickly"
+      ]
+    },
+    {
+      "name": "Lookiero",
+      "position": "Technical Lead",
+      "startDate": "2020-05-31",
+      "endDate": "2020-10-31",
+      "url": "https://lookiero.com",
+      "location": "Valencia, Spain (Remote)",
+      "summary": "Worked in a full stack team while promoting XP practices and delivered features",
+      "highlights": [
+        "Developed and architected the customer referral system",
+        "Developed a full landing page with a tight schedule",
+        "Worked on components and screens that worked on both react and react native",
+        "Introduced some functional programming style on one of the Java BEs to help with some complex domain modeling",
+        "Trained team on feature toggles and how to develop in a trunk-based development style",
+        "Started Haskell Book on the reading club to help distribute functional programming knowledge across teams"
+      ]
+    },
+    {
+      "name": "Habito",
+      "position": "Software engineer",
+      "startDate": "2019-01-31",
+      "endDate": "2020-05-31",
+      "url": "https://habito.com",
+      "location": "London, United Kingdom",
+      "summary": "Worked as part of the brokerage crew(s) to deliver features while adapting for the 1st time to a real production system built using Haskell",
+      "highlights": [
+        "Extracted three services within the same subdomain out of the monolith",
+        "Worked closely with the operations team to get as much knowledge as I could about affordability calculations",
+        "Deployed ingress for Kubernetes to allow inter-cluster communication"
+      ]
+    },
+    {
+      "name": "Codurance",
+      "position": "Software Craftsman",
+      "startDate": "2017-01-31",
+      "endDate": "2018-12-31",
+      "url": "https://codurance.com",
+      "location": "London, United Kingdom",
+      "summary": "Codurance provided me with an environment to grow and develop as a professional. Since the beginning, I needed to work with different crews with different programming languages at different locations.",
+      "highlights": [
+        "Developed a few web apps using React + JS and Typescript",
+        "Developed an article search engine using elastic search",
+        "Provided internal talks on Functional programming in Scala",
+        "Provided training on TDD & Testing for M&S (UK)",
+        "Provided an intro to AWS for Mango (Barcelona)"
+      ]
+    },
+    {
+      "name": "Novoda",
+      "position": "Android craftsman",
+      "startDate": "2016-02-28",
+      "endDate": "2016-12-31",
+      "url": "https://novoda.com",
+      "location": "London, United Kingdom",
+      "summary": "Worked in a strong XP practices environment. Worked solely for the Channel 4 app",
+      "highlights": [
+        "Developed & architectured the whole My Channel 4 experience from scratch",
+        "Introduced full integrated tests running against different real mobile phones",
+        "Developed a good amount of features using outside-in TDD",
+        "Developed Rx workflows within the application to handle android activity state(s)"
+      ]
+    },
+    {
+      "name": "IG",
+      "position": "Android developer",
+      "startDate": "2015-10-31",
+      "endDate": "2016-02-28",
+      "url": "http://iggroup.com",
+      "location": "London, United Kingdom",
+      "summary": "Worked on the main IG stock trading app",
+      "highlights": [
+        "Rearchitectured the way the application handled state since there were memory leaks around",
+        "Introduced a good amount of unit/integration tests to cover the main workflows",
+        "Coordinated work across the different teams (India and Poland)"
+      ]
+    },
+    {
+      "name": "Moni",
+      "position": "Android developer",
+      "startDate": "2015-05-31",
+      "endDate": "2015-09-30",
+      "location": "London, United Kingdom",
+      "summary": "Worked on the Moni currency exchange app",
+      "highlights": [
+        "Rebranded the application with a completely different style using the material design guidelines"
+      ]
+    },
+    {
+      "name": "Selltag",
+      "position": "Android/iOS developer",
+      "startDate": "2014-05-31",
+      "endDate": "2015-05-31",
+      "url": "https://www.linkedin.com/company/selltag/",
+      "location": "Madrid, Spain",
+      "summary": "Worked as the sole Android developer",
+      "highlights": [
+        "Architectured and written the application from scratch alone",
+        "Followed the clean architecture principles to make an extensible app",
+        "Introduced unit/integration tests",
+        "Introduced a CI pipeline to build android artifacts",
+        "Gather requirements from stakeholders and architect technical solutions along with implementation details",
+        "Maintained crash-free users of the app at around 99.7%",
+        "Delivered versions every 1-2 weeks since the beginning"
+      ]
+    },
+    {
+      "name": "Movilok",
+      "position": "Android/iOS developer",
+      "startDate": "2011-11-30",
+      "endDate": "2014-05-31",
+      "url": "https://movilok.net",
+      "location": "Madrid, Spain",
+      "summary": "Delivered a lot of features and multiple mobile apps",
+      "highlights": [
+        "Architectured and written from scratch the Android app BBVA (Spain)",
+        "Architectured and written from scratch the Android app BBVA Compass (USA)",
+        "Delivered a major version of the Android app BBVA Vivienda (Spain, real estate)",
+        "Architectured and written from scratch an Android Twitter client that measures user's influence",
+        "Created chart components for BBVA Research (iOS) using canvas",
+        "Created custom components from scratch using canvas to make animations more performant"
+      ]
+    },
+    {
+      "name": "Ocelabs",
+      "position": "Android/iOS Developer",
+      "startDate": "2011-04-30",
+      "endDate": "2011-07-31",
+      "summary": "iOS and Android app development",
+      "highlights": []
+    },
+    {
+      "name": "everis",
+      "position": "Java developer",
+      "startDate": "2010-01-31",
+      "endDate": "2011-05-31",
+      "url": "https://www.linkedin.com/company/everis/",
+      "location": "Valencia, Spain",
+      "summary": "Worked on the 'Orion Clinic' project. A hospital management application that's managing a few hospitals in Valencia",
+      "highlights": [
+        "Worked with Java swing, Websphere 6/7",
+        "Worked on a query migrator at the runtime that translated JDO to JPA",
+        "Worked on the performance of database access that was degrading vastly the experience"
+      ]
+    },
+    {
+      "name": "edinn",
+      "position": "Developer",
+      "startDate": "2009-03-31",
+      "endDate": "2010-01-31",
+      "url": "https://www.linkedin.com/company/edinn/",
+      "location": "Valencia, Spain",
+      "summary": "Worked on the main edinn app",
+      "highlights": [
+        "Migrated a visual basic 6 application to php + javascript",
+        "Worked on the main edinn app written in Java + Swing"
+      ]
+    },
+    {
+      "name": "Grupo Intecformat",
+      "position": "Developer",
+      "startDate": "2008-09-30",
+      "endDate": "2009-02-28",
+      "summary": "Web developer",
+      "location": "Valencia, Spain",
+      "highlights": []
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "CE Cheste",
+      "area": "Exploitation of computer systems",
+      "studyType": "FP1",
+      "startDate": "2007-01-01",
+      "endDate": "2009-01-01"
+    },
+    {
+      "institution": "CE Cheste",
+      "area": "Application development",
+      "studyType": "FP2",
+      "startDate": "2005-01-01",
+      "endDate": "2007-01-01"
+    }
+  ],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "Functional Programming Principles in Scala",
+      "issuer": "Coursera",
+      "date": "2016-07-31",
+      "url": "https://www.coursera.org/account/accomplishments/verify/XCBDWDVCJ2UU"
+    },
+    {
+      "name": "Functional Program Design in Scala",
+      "issuer": "Coursera",
+      "date": "2016-08-31",
+      "url": "https://www.coursera.org/account/accomplishments/verify/PVZCCBX356BH"
+    },
+    {
+      "name": "Parallel programming",
+      "issuer": "Coursera",
+      "date": "2016-09-30",
+      "url": "https://www.coursera.org/account/accomplishments/verify/VRQUVJNRHP3M"
+    },
+    {
+      "name": "Functional Programming in Scala Capstone",
+      "issuer": "Coursera",
+      "date": "2017-08-31",
+      "url": "https://www.coursera.org/account/accomplishments/verify/FQAAHD59QLPS"
+    },
+    {
+      "name": "Big Data Analysis with Scala and Spark",
+      "issuer": "Coursera",
+      "date": "2017-04-30",
+      "url": "https://www.coursera.org/account/accomplishments/verify/PCBUDJXUAJAS"
+    },
+    {
+      "name": "Functional Programming in Scala Specialization",
+      "issuer": "Coursera",
+      "date": "2017-08-31",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/BGADQ6NW4Y8B"
+    }
+  ],
+  "publications": [
+    {
+      "name": "My way to clean code Android",
+      "publisher": "Droidcon Madrid 2015",
+      "releaseDate": "2015-04-24",
+      "summary": "Introduction to Clean Architecture on Android",
+      "url": "http://www.slideshare.net/ChristianPanadero/my-way-to-clean-android-v2-english-droidcon-spain"
+    },
+    {
+      "name": "My way to clean architecture Android",
+      "publisher": "GDG Salamanca",
+      "releaseDate": "2015-03-17",
+      "summary": "Introduction to Clean Architecture on Android",
+      "url": "https://www.youtube.com/watch?v=lOEOK3UvmJM&t=99s"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Backend",
+      "level": "master",
+      "keywords": [
+        "Haskell",
+        "Java",
+        "Typescript"
+      ]
+    },
+    {
+      "name": "Frontend",
+      "level": "advanced",
+      "keywords": [
+        "HTML",
+        "Javascript / Typescript",
+        "React",
+        "React Native",
+        "Redux"
+      ]
+    },
+    {
+      "name": "Mobile",
+      "level": "intermediate",
+      "keywords": [
+        "Android",
+        "iOS",
+        "Flutter"
+      ]
+    },
+    {
+      "name": "Devops",
+      "level": "beginner",
+      "keywords": [
+        "AWS",
+        "Kubernetes",
+        "Linux"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ],
+  "interests": [
+    {
+      "name": "3D Printing"
+    },
+    {
+      "name": "Cryptocurrencies"
+    },
+    {
+      "name": "Gym and lifestyle"
+    },
+    {
+      "name": "Hardware and gadgets"
+    }
+  ],
+  "projects": [
+    {
+      "name": "dotfiles",
+      "url": "https://github.com/panavtec/dotfiles",
+      "description": "My system configuration, among some scripts and utilities",
+      "keywords": ["linux", "nixos"]
+    },
+    {
+      "name": "timebox-evo-api",
+      "description": "This projects spins an API to control a Divoom Timebox Evo via bluetooh. Uses TS + fp-ts",
+      "keywords": ["typescript", "fp-ts"]
+    },
+    {
+      "name": "Simracing DIY wheels",
+      "description": "Created two wheels from scratch with my 3d printer, some arduinos and my soldering iron.",
+      "url": "https://imgur.com/a/5OLXzYL",
+      "keywords": ["arduino", "3d printing"]
+    },
+    {
+      "name": "FxCalendar",
+      "url": "https://github.com/PaNaVTEC/FxCalendar",
+      "description": "Discord bot written in JS that publishes the economic events and market performance for the day in a discord channel",
+      "keywords": ["discord", "bot", "js"]
+    },
+    {
+      "name": "Ubertrage",
+      "description": "Not open source for now. Bot to find arbitrage oportunities by checking prices in some defi swaps like pancakeswap. Built with TS and used blessed (ncurses) for the UI although it works without UI as well",
+      "keywords": ["bot", "ts"]
+    },
+    {
+      "name": "Clean contacts",
+      "url": "https://github.com/panavtec/Clean-Contacts",
+      "description": "This is not a library, this is a sample implementation of Clean architecture in Android. Currently I'm working with this architecture and I think the code becomes well structured, decoupled and maintainable, in summary, it follow the SOLID principles. This is a sample repository that I used in my talk “My way to clean Android”. It has around 60% code coverage and uses Travis CI to run the unit/instrumentation tests",
+      "keywords": ["clean architecture", "android", "tests"]
+    }
+  ],
+  "meta": {
+    "theme": "orbit",
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}
