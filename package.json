@@ -21,8 +21,7 @@
     "build:styles:5": "lessc assets/less/theme-5/styles.less assets/css/styles.css",
     "build:styles:6": "lessc assets/less/theme-6/styles.less assets/css/styles.css",
     "release:prepare": "git checkout master && git pull && npm version patch -m \"Release: %s\"",
-
-    "servee": "npx resume-cli serve --theme $(pwd)",
+    "serve": "npx resume-cli serve --theme $(pwd)",
     "build-pdf": "npx resume-cli export cv.pdf --format pdf --theme ."
   },
   "dependencies": {
@@ -31,7 +30,8 @@
     "marked": "^4.0.8"
   },
   "devDependencies": {
-    "less": "^4.0.0"
+    "less": "^4.0.0",
+    "resume-cli": "^3.0.6"
   },
   "engineStrict": true,
   "engines": {

@@ -7,6 +7,18 @@
  * Website: http://themes.3rdwavemedia.com/
 */
 /* styles.css */
+@page {
+  size: A4;
+}
+@media print {
+  body {
+    padding: 0 !important;
+    max-width: 297mm !important;
+  }
+  .wrapper {
+    max-width: 100% !important;
+  }
+}
 /* ======= Base ======= */
 body {
   font-family: 'Roboto', sans-serif;
@@ -43,7 +55,6 @@ p {
   line-height: 1.5;
 }
 .wrapper {
-  background: #42A8C0;
   max-width: 960px;
   margin: 0 auto;
   position: relative;
@@ -259,7 +270,7 @@ p {
   padding: 5px 10px;
   background-color: #35879a;
   position: relative;
-  font-size: .85em;
+  font-size: 0.85em;
 }
 .badge {
   display: inline-block;
@@ -273,9 +284,6 @@ p {
   white-space: nowrap;
   vertical-align: middle;
   border-radius: 10px;
-}
-.keywords {
-  margin-bottom:12px;
 }
 .footer {
   padding: 30px;

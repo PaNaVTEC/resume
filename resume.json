@@ -59,7 +59,7 @@
         "Worked on components and screens that worked on both react and react native",
         "Introduced some functional programming style on one of the Java BEs to help with some complex domain modeling",
         "Trained team on feature toggles and how to develop in a trunk-based development style",
-        "Started Haskell Book on the reading club to help distribute functional programming knowledge across teams"
+        "Organized Haskell sessions on the reading club to help distribute functional programming knowledge across teams"
       ]
     },
     {
@@ -385,7 +385,6 @@
     }
   ],
   "meta": {
-    "theme": "orbit",
     "version": "v1.0.0",
     "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
   }

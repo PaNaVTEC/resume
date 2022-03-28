@@ -1,9 +1,21 @@
 @sidebar-width: 240px;
 @sidebar-minheight: 800px;
 
+@page { size: A4 }
+
+@media print {
+    body {
+        padding: 0 !important;
+        max-width: 297mm !important;
+    }
+    .wrapper {
+        max-width: 100% !important;
+    }
+}
+
 /* ======= Base ======= */
 body {
-    font-family: 'Roboto', sans-serif;  
+    font-family: 'Roboto', sans-serif;
     color: @text-color-secondary;
     background: @smoky-white;
     font-size: 14px;
@@ -33,7 +45,6 @@ p {
 }
 
 .wrapper {
-    background:@theme-color;
     max-width: 960px;
     margin: 0 auto;
     position: relative;
@@ -131,7 +142,7 @@ p {
             color: rgba(256, 256, 256, 0.6);
         }
     }
-    
+
     .languages-list {
         margin-bottom: 0;
         li {
@@ -141,7 +152,7 @@ p {
             }
         }
     }
-    
+
     .interests-list {
         margin-bottom: 0;
         li {
@@ -185,7 +196,7 @@ p {
     .section {
         margin-bottom: 60px;
     }
-    
+
     .experiences-section {
         .item {
             margin-bottom: 30px;
@@ -210,10 +221,15 @@ p {
         color: @text-grey;
     }
     .company {
-        margin-bottom: 10px;
+        margin-bottom: 2px;
         color: @text-grey;
+        .fa {
+          margin-right: 6px;
+        }
     }
-    
+    .highlights {
+      margin-top: 12px;
+    }
     .project-title {
         font-size: 16px;
         font-weight: 400;
@@ -228,7 +244,7 @@ p {
             margin-bottom: 15px;
         }
     }
-    
+
 }
 
 
@@ -252,8 +268,30 @@ p {
     }
 }
 
+.work-highlight {
+  color: #fff;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  background-color: #35879a;
+  position: relative;
+  font-size: .85em;
+}
 
-
+.badge {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border-radius: 10px;
+}
 
 .footer {
     padding: 30px;
@@ -261,11 +299,11 @@ p {
     .copyright {
         line-height: 1.6;
         color: @text-color-secondary;
-        font-size: 13px;       
-    }  
-    
+        font-size: 13px;
+    }
+
     .fa-heart {
         color: @heart;
     }
-    
+
 }
