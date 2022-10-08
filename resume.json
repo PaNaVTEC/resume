@@ -30,9 +30,20 @@
   },
   "work": [
     {
+      "name": "SiriusXM",
+      "position": "Software engineer",
+      "startDate": "2022-08-01",
+      "url": "https://www.siriusxm.com",
+      "location": "Valencia, Spain (Remote)",
+      "summary": "Working in the commerce team of SiriusXM",
+      "highlights": [
+      ]
+    },
+    {
       "name": "Habito",
       "position": "Software engineer",
       "startDate": "2020-10-31",
+      "endDate": "2022-07-31",
       "url": "https://habito.com",
       "location": "Valencia, Spain (Remote)",
       "summary": "Worked in a crossfunctional crew that took care of 2 Haskell monoliths and a few microservices adding up to one million lines of code using a custom CQRS + ES solution",
