@@ -22,8 +22,8 @@
     "build:styles:6": "lessc assets/less/theme-6/styles.less assets/css/styles.css",
     "release:prepare": "git checkout master && git pull && npm version patch -m \"Release: %s\"",
 
-    "serve": "npm run build:styles && npx resume-cli serve --theme $(pwd)",
-    "publish": "npm run build:styles && npx resume-cli export index.html --format html --theme $(pwd)"
+    "serve": "npm run build:styles && npx resume-cli serve --theme .",
+    "publish": "npm run build:styles && npx resume-cli export index.html --format html --theme ."
   },
   "dependencies": {
     "handlebars": "^4.1.2",
