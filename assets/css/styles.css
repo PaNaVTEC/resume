@@ -13,7 +13,7 @@
 @media print {
   body {
     padding: 0 !important;
-    max-width: 297mm !important;
+    max-width: 210mm !important;
   }
   .wrapper {
     max-width: 100% !important;
