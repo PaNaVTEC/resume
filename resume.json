@@ -5,7 +5,7 @@
     "label": "Full-stack engineer",
     "image": "https://www.gravatar.com/avatar/27e0c9f01ff056119361b79591034505?size=140",
     "email": "panavtec@gmail.com",
-    "summary": "10 years+ experienced tech enthusiast who worked in frontend, mobile and backend projects. Strives for simplicity and always tries to look for the most elegant and reliable solution.",
+    "summary": "13 years+ experienced tech enthusiast who worked in frontend, mobile and backend projects. Strives for simplicity and always tries to look for the most elegant and reliable solution. I'm an enthusiastic polyglot and fast learner, functional programming is always at my heart.",
     "location": {
       "countryCode": "ES",
       "city": "Valencia"
@@ -35,8 +35,10 @@
       "startDate": "2022-08-01",
       "url": "https://www.siriusxm.com",
       "location": "Valencia, Spain (Remote)",
-      "summary": "Working in the commerce team of SiriusXM",
+      "summary": "Working in the commerce team of SiriusXM. Developed microservices to manage orders, subscriptions and entitlements.",
       "highlights": [
+        "Worked in an event driven, highly scalable and global system built from scratch. Used AWS cdk, dynamodb, lambda, kinesis",
+        "All microservices made use of Scala 3 and cats effect, having built everything using tagless final"
       ]
     },
     {
