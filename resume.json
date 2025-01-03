@@ -371,6 +371,7 @@
     },
     {
       "name": "timebox-evo-api",
+      "url": "https://github.com/PaNaVTEC/timebox-evo-api",
       "description": "This projects spins an API to control a Divoom Timebox Evo via bluetooh. Uses TS + fp-ts",
       "keywords": ["typescript", "fp-ts"]
     },
@@ -385,11 +386,6 @@
       "url": "https://github.com/PaNaVTEC/FxCalendar",
       "description": "Discord bot written in JS that publishes the economic events and market performance for the day in a discord channel",
       "keywords": ["discord", "bot", "js"]
-    },
-    {
-      "name": "Ubertrage",
-      "description": "Not open source for now. Bot to find arbitrage oportunities by checking prices in some defi swaps like pancakeswap. Built with TS and used blessed (ncurses) for the UI although it works without UI as well",
-      "keywords": ["bot", "ts"]
     },
     {
       "name": "Clean contacts",
