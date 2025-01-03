@@ -5,7 +5,7 @@
     "label": "Full-stack engineer",
     "image": "https://www.gravatar.com/avatar/27e0c9f01ff056119361b79591034505?size=140",
     "email": "panavtec@gmail.com",
-    "summary": "13 years+ experienced tech enthusiast who worked in frontend, mobile and backend projects. Strives for simplicity and always tries to look for the most elegant and reliable solution. I'm an enthusiastic polyglot and fast learner, functional programming is always at my heart.",
+    "summary": "15 years+ experienced tech enthusiast who worked in frontend, mobile and backend projects. Strives for simplicity and always tries to look for the most elegant and reliable solution. I'm an enthusiastic polyglot and fast learner, functional programming is always at my heart.",
     "location": {
       "countryCode": "ES",
       "city": "Valencia"
@@ -305,6 +305,7 @@
         "Haskell",
         "Scala",
         "Java",
+        "Kotlin",
         "Typescript"
       ]
     },
@@ -313,10 +314,21 @@
       "level": "advanced",
       "keywords": [
         "HTML",
-        "Javascript / Typescript",
+        "Javascript",
+        "Typescript",
         "React",
         "React Native",
         "Redux"
+      ]
+    },
+    {
+      "name": "Devops and tooling",
+      "level": "intermediate",
+      "keywords": [
+        "AWS",
+        "Docker",
+        "Kubernetes",
+        "Linux"
       ]
     },
     {
@@ -326,15 +338,6 @@
         "Android",
         "iOS",
         "Flutter"
-      ]
-    },
-    {
-      "name": "Devops",
-      "level": "beginner",
-      "keywords": [
-        "AWS",
-        "Kubernetes",
-        "Linux"
       ]
     }
   ],
@@ -353,13 +356,13 @@
       "name": "3D Printing"
     },
     {
-      "name": "Cryptocurrencies"
-    },
-    {
       "name": "Gym and lifestyle"
     },
     {
-      "name": "Hardware and gadgets"
+      "name": "Repairing electronics"
+    },
+    {
+      "name": "Modding video consoles"
     }
   ],
   "projects": [

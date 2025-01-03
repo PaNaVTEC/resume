@@ -92,6 +92,8 @@ p {
 }
 .sidebar-wrapper .profile {
   margin-bottom: 15px;
+  border-radius: 50%;
+  border: 4px white solid;
 }
 .sidebar-wrapper .contact-list .fa {
   margin-right: 5px;
@@ -246,7 +248,7 @@ p {
   page-break-inside: avoid !important;
 }
 .skillset .item {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   overflow: hidden;
   page-break-inside: avoid !important;
 }
@@ -262,6 +264,9 @@ p {
 .skillset .level-bar-inner {
   height: 12px;
   background: #7bc2d3;
+}
+.skillset .keywords {
+  margin-bottom: 10px;
 }
 .work-highlight {
   color: #fff;
