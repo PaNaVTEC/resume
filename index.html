@@ -110,6 +110,8 @@ p {
 }
 .sidebar-wrapper .profile {
   margin-bottom: 15px;
+  border-radius: 50%;
+  border: 4px white solid;
 }
 .sidebar-wrapper .contact-list .fa {
   margin-right: 5px;
@@ -264,7 +266,7 @@ p {
   page-break-inside: avoid !important;
 }
 .skillset .item {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   overflow: hidden;
   page-break-inside: avoid !important;
 }
@@ -280,6 +282,9 @@ p {
 .skillset .level-bar-inner {
   height: 12px;
   background: #7bc2d3;
+}
+.skillset .keywords {
+  margin-bottom: 10px;
 }
 .work-highlight {
   color: #fff;
@@ -445,9 +450,9 @@ p {
                 <h2 class="container-block-title">Interests</h2>
                 <ul class="list-unstyled interests-list">
                         <li>3D Printing</li>
-                        <li>Cryptocurrencies</li>
                         <li>Gym and lifestyle</li>
-                        <li>Hardware and gadgets</li>
+                        <li>Repairing electronics</li>
+                        <li>Modding video consoles</li>
                 </ul>
             </div><!--//interests-->
 
@@ -458,9 +463,67 @@ p {
             <section class="section summary-section">
                 <h2 class="section-title"><i class="fa fa-user"></i>Personal Summary</h2>
                 <div class="summary">
-                    <p>13 years+ experienced tech enthusiast who worked in frontend, mobile and backend projects. Strives for simplicity and always tries to look for the most elegant and reliable solution. I&#x27;m an enthusiastic polyglot and fast learner, functional programming is always at my heart.</p>
+                    <p>15 years+ experienced software engineer mostsly focused on Scala/Java/Kotlin (JVM) solutions. I&#x27;m an enthusiastic polyglot and fast learner capable of leading, mentoring, or working with a team to help deliver business value. I worked in startups and large companies so I understand the importance of delivering solutions to provide value and not over engineer while releasing good high quality software.</p>
                 </div><!--//summary-->
             </section><!--//section-->
+        
+            <section class="skills-section section">
+                <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
+                <div class="skillset">
+                        <div class="item">
+                            <h3 class="level-title">Backend</h3>
+                            <div class="level-bar">
+                                <div class="level-bar-inner" data-level="100%">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="keywords">
+                            <span class="work-highlight badge">Haskell</span>
+                            <span class="work-highlight badge">Scala</span>
+                            <span class="work-highlight badge">Java</span>
+                            <span class="work-highlight badge">Kotlin</span>
+                            <span class="work-highlight badge">Typescript</span>
+                        </div>
+                        <div class="item">
+                            <h3 class="level-title">Devops and tooling</h3>
+                            <div class="level-bar">
+                                <div class="level-bar-inner" data-level="75%">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="keywords">
+                            <span class="work-highlight badge">AWS</span>
+                            <span class="work-highlight badge">Docker</span>
+                            <span class="work-highlight badge">Kubernetes</span>
+                            <span class="work-highlight badge">Linux</span>
+                        </div>
+                        <div class="item">
+                            <h3 class="level-title">Frontend</h3>
+                            <div class="level-bar">
+                                <div class="level-bar-inner" data-level="75%">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="keywords">
+                            <span class="work-highlight badge">Typescript</span>
+                            <span class="work-highlight badge">React</span>
+                            <span class="work-highlight badge">React Native</span>
+                            <span class="work-highlight badge">Redux</span>
+                        </div>
+                        <div class="item">
+                            <h3 class="level-title">Mobile</h3>
+                            <div class="level-bar">
+                                <div class="level-bar-inner" data-level="50%">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="keywords">
+                            <span class="work-highlight badge">Android</span>
+                            <span class="work-highlight badge">iOS</span>
+                            <span class="work-highlight badge">Flutter</span>
+                        </div>
+                </div>
+            </section><!--//skills-section-->
         
             <section class="section experiences-section">
                 <h2 class="section-title"><i class="fa fa-briefcase"></i>Work Experience</h2>
@@ -478,7 +541,13 @@ p {
                         </div><!--//details-->
                         <ul class="highlights">
                                 <li>Worked in an event driven, highly scalable and global system built from scratch. Used AWS cdk, dynamodb, lambda, kinesis</li>
+                                <li>Stripe integration as a payment system and subscription manager</li>
                                 <li>All microservices made use of Scala 3 and cats effect, having built everything using tagless final</li>
+                                <li>Built libraries to made the code more correct at typelevel such as NonEmptyString, PositiveInt, Interval</li>
+                                <li>Built a library with a typeclass that sends tracing data to datadog automatically</li>
+                                <li>Built macros to auto derive typeclasses, ie Arbitrary of scalacheck</li>
+                                <li>Built a custom e2e test suite running on docker + localstack that tests almost in a e2e manner the whole service without deploying in aws and mocking external dependencies</li>
+                                <li>Made use of aws smithy to define and implement api contracts</li>
                         </ul>
                     </div><!--//item-->
                     <div class="item">
@@ -768,63 +837,6 @@ p {
                         </div><!--//details-->
                     </div><!--//item-->
             </section><!--//section-->
-        
-            <section class="skills-section section">
-                <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
-                <div class="skillset">
-                        <div class="item">
-                            <h3 class="level-title">Backend</h3>
-                            <div class="level-bar">
-                                <div class="level-bar-inner" data-level="100%">
-                                </div>
-                            </div><!--//level-bar-->
-                        </div><!--//item-->
-                        <div class="keywords">
-                            <span class="work-highlight badge">Haskell</span>
-                            <span class="work-highlight badge">Scala</span>
-                            <span class="work-highlight badge">Java</span>
-                            <span class="work-highlight badge">Typescript</span>
-                        </div>
-                        <div class="item">
-                            <h3 class="level-title">Frontend</h3>
-                            <div class="level-bar">
-                                <div class="level-bar-inner" data-level="75%">
-                                </div>
-                            </div><!--//level-bar-->
-                        </div><!--//item-->
-                        <div class="keywords">
-                            <span class="work-highlight badge">HTML</span>
-                            <span class="work-highlight badge">Javascript / Typescript</span>
-                            <span class="work-highlight badge">React</span>
-                            <span class="work-highlight badge">React Native</span>
-                            <span class="work-highlight badge">Redux</span>
-                        </div>
-                        <div class="item">
-                            <h3 class="level-title">Mobile</h3>
-                            <div class="level-bar">
-                                <div class="level-bar-inner" data-level="50%">
-                                </div>
-                            </div><!--//level-bar-->
-                        </div><!--//item-->
-                        <div class="keywords">
-                            <span class="work-highlight badge">Android</span>
-                            <span class="work-highlight badge">iOS</span>
-                            <span class="work-highlight badge">Flutter</span>
-                        </div>
-                        <div class="item">
-                            <h3 class="level-title">Devops</h3>
-                            <div class="level-bar">
-                                <div class="level-bar-inner" data-level="25%">
-                                </div>
-                            </div><!--//level-bar-->
-                        </div><!--//item-->
-                        <div class="keywords">
-                            <span class="work-highlight badge">AWS</span>
-                            <span class="work-highlight badge">Kubernetes</span>
-                            <span class="work-highlight badge">Linux</span>
-                        </div>
-                </div>
-            </section><!--//skills-section-->
 
         </div><!--//main-body-->
     </div>

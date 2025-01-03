@@ -5,7 +5,7 @@
     "label": "Full-stack engineer",
     "image": "https://www.gravatar.com/avatar/27e0c9f01ff056119361b79591034505?size=140",
     "email": "panavtec@gmail.com",
-    "summary": "15 years+ experienced tech enthusiast who worked in frontend, mobile and backend projects. Strives for simplicity and always tries to look for the most elegant and reliable solution. I'm an enthusiastic polyglot and fast learner, functional programming is always at my heart.",
+    "summary": "15 years+ experienced software engineer mostsly focused on Scala/Java/Kotlin (JVM) solutions. I'm an enthusiastic polyglot and fast learner capable of leading, mentoring, or working with a team to help deliver business value. I worked in startups and large companies so I understand the importance of delivering solutions to provide value and not over engineer while releasing good high quality software.",
     "location": {
       "countryCode": "ES",
       "city": "Valencia"
@@ -38,7 +38,13 @@
       "summary": "Working in the commerce team of SiriusXM. Developed microservices to manage orders, subscriptions and entitlements.",
       "highlights": [
         "Worked in an event driven, highly scalable and global system built from scratch. Used AWS cdk, dynamodb, lambda, kinesis",
-        "All microservices made use of Scala 3 and cats effect, having built everything using tagless final"
+        "Stripe integration as a payment system and subscription manager",
+        "All microservices made use of Scala 3 and cats effect, having built everything using tagless final",
+        "Built libraries to made the code more correct at typelevel such as NonEmptyString, PositiveInt, Interval",
+        "Built a library with a typeclass that sends tracing data to datadog automatically",
+        "Built macros to auto derive typeclasses, ie Arbitrary of scalacheck",
+        "Built a custom e2e test suite running on docker + localstack that tests almost in a e2e manner the whole service without deploying in aws and mocking external dependencies",
+        "Made use of aws smithy to define and implement api contracts"
       ]
     },
     {
@@ -310,25 +316,23 @@
       ]
     },
     {
-      "name": "Frontend",
-      "level": "advanced",
-      "keywords": [
-        "HTML",
-        "Javascript",
-        "Typescript",
-        "React",
-        "React Native",
-        "Redux"
-      ]
-    },
-    {
       "name": "Devops and tooling",
-      "level": "intermediate",
+      "level": "advanced",
       "keywords": [
         "AWS",
         "Docker",
         "Kubernetes",
         "Linux"
+      ]
+    },
+    {
+      "name": "Frontend",
+      "level": "advanced",
+      "keywords": [
+        "Typescript",
+        "React",
+        "React Native",
+        "Redux"
       ]
     },
     {
