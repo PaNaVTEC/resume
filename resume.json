@@ -30,12 +30,23 @@
   },
   "work": [
     {
+      "name": "Go Nitro",
+      "position": "Software engineer",
+      "startDate": "2025-03-01",
+      "url": "https://www.gonitro.com",
+      "location": "Valencia, Spain (Remote)",
+      "summary": "Working in the signing team of GoNitro.",
+      "highlights": [
+      ]
+    },
+    {
       "name": "SiriusXM",
       "position": "Software engineer",
       "startDate": "2022-08-01",
+      "endDate": "2025-02-28",
       "url": "https://www.siriusxm.com",
       "location": "Valencia, Spain (Remote)",
-      "summary": "Working in the commerce team of SiriusXM. Developed microservices to manage orders, subscriptions and entitlements.",
+      "summary": "Worked in the commerce team of SiriusXM. Developed microservices to manage orders, subscriptions and entitlements.",
       "highlights": [
         "Worked in an event driven, highly scalable and global system built from scratch. Used AWS cdk, dynamodb, lambda, kinesis",
         "Stripe integration as a payment system and subscription manager",
